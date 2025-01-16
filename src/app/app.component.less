@@ -1,0 +1,42 @@
+.container {
+    max-width: 1280px;
+    height: 90vh;
+    padding: 2rem;
+    background-color: red;
+  }
+  
+  .flex-parent {
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+  }
+  
+  .flex-child-1 {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+    margin-bottom: 2rem;
+  
+    div {
+      width: 15rem;
+      height: 3rem;
+      background-color: green;
+    }
+  }
+  
+  .flex-child-2 {
+    display: flex;
+    flex-wrap: wrap; /* Enables wrapping */
+    justify-content: flex-start; /* Align items to the left */
+    align-content: flex-start; /* Controls row alignment */
+    gap: 1rem; /* Consistent spacing between items */
+    background-color: blue;
+  
+    div {
+      width: 10rem; /* Fixed width */
+      height: 10rem; /* Fixed height */
+      background-color: purple;
+    }
+  }
+  
